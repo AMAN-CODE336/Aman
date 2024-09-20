@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -15,13 +15,11 @@
     <section class="">
         <div class="upper">
             <nav>
-                <div class="flex justify-around items-center">
-                    <div class="flex">
-                        <div class="flex">
-                            <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt=""
-                                class="  w-32 ">
-                        </div>
-                        <div class="flex ">
+                <div class="flex justify-between items-center px-32">
+                    <div class="flex justify-between items-center">
+                        <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt=""
+                            class="h-10 w-28" />
+                        <div class="flex items-center">
                             <ul class="flex p-6 gap-4">
                                 <li class="text-xs">MEN</li>
                                 <li class="text-xs">WOMEN</li>
@@ -29,34 +27,34 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="flex">
-                        <div class="relative flex">
-                            <span class=" absolute ps-3 top-[1px] py-1"><i
-                                    class="fa-solid fa-magnifying-glass "></i></span>
+                    <div class="flex items-center gap-6">
+                        <div class="relative items-center">
+                            <span class="absolute ps-3 top-[1px] py-1"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="text" placeholder="search by products"
+                                class="py-2 w-56 ps-11 bg-gray-200 rounded placeholder: text-xs" />
+                        </div>
+                        <div class="w-[1px] h-4 top-3 bg-gray-300">
 
-                            <div class="">
-                                <input type="text" placeholder="search by products"
-                                    class="py-2 w-56 ps-11 bg-gray-200 rounded placeholder: text-xs">
-                            </div>
-                            <div class="flex">
-                                <span class=" absolute w-[1px] h-5 top-3 bg-gray-300"></span>
+                        </div>
+                        <div class="flex justify-between items-center gap-4 ">
+                            <div>
+                                <button class="text-[10px]">LOGIN</button>
                             </div>
                             <div>
-                                 <button class="text-[10px] ">LOGIN</button>
+                                <i class="fa-regular fa-heart"></i>
                             </div>
                             <div>
-                                <img src="https://shop.bewakoof.com/wishlist" alt="" class="">
+                                <i class="fa-solid fa-cart-shopping"></i>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </nav>
-
+            <hr>
+            
         </div>
-
-
-
-
     </section>
+</body>
+
+</html>
